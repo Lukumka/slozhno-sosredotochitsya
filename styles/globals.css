@@ -23,6 +23,10 @@ p {
   margin: 0;
 }
 
+nav {
+  margin: none;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -40,4 +44,8 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+a {
+  text-decoration: none;
 }

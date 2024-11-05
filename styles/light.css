@@ -1,12 +1,47 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+:root .theme_light {
+  --accent-color: #ff8dcb;
+  --second-accent-color: #ff0070;
+  --dark-color: #353430;
+  --light-color: #ffc2e6;
+  --second-light-color: #fff1f7;
+  --bkg-color: var(--second-light-color);
+  --text-color: var(--dark-color);
+  --outline-color: var(--dark-color);
+  --title-color: var(--light-color);
+  --subtitle-color: var(--dark-color);
+  --hover-outline-color: 53, 52, 48;
+}
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  background-image: url(../images/cover-image-light.png);
+}
+
+.page.theme_light .header__dark-theme-decoration {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  .page.theme_auto {
+    --accent-color: #ff8dcb;
+    --second-accent-color: #ff0070;
+    --dark-color: #353430;
+    --light-color: #ffc2e6;
+    --second-light-color: #fff1f7;
+    --bkg-color: var(--second-light-color);
+    --text-color: var(--dark-color);
+    --outline-color: var(--dark-color);
+    --title-color: var(--light-color);
+    --subtitle-color: var(--dark-color);
+    --hover-outline-color: 53, 52, 48;
+    background-image: url(../images/cover-image-light.png);
+  }
+  .page.theme_auto .header__dark-theme-decoration {
+    display: none;
+  }
+}
+
+@media (769px < width) {
+  :root .theme_light .title {
+    text-shadow: 4px 4px 0 var(--second-accent-color);
+  }
 }

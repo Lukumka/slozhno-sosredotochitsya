@@ -3,10 +3,24 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+:root .dark {
+  --accent-color: #ff0070;
+  --second-accent-color: #db00ff;
+  --dark-color: #000028;
+  --light-color: #f1b2ce;
+  --main-font-size: 18px;
+  --main-font-family: "IBM Plex mono";
+  --page-margin: 10px;
+  --section-margin: 40px;
+  --header-items-margin: 55px;
+  --bkg-color: var(--dark-color);
+  --text-color: var(--light-color);
+  --outline-color: var(--accent-color);
+  --title-color: var(--second-accent-color);
+  --subtitle-color: var(--accent-color);
+  --hover-outline-color: 255, 0, 112;
+}
 
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  background-image: url(../images/cover-image-dark.png);
 }
