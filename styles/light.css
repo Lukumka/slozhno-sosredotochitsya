@@ -12,7 +12,7 @@
   --hover-outline-color: 53, 52, 48;
 }
 
-.page.theme_light {
+.page.theme_light .header {
   background-image: url(../images/cover-image-light.png);
 }
 
@@ -33,15 +33,24 @@
     --title-color: var(--light-color);
     --subtitle-color: var(--dark-color);
     --hover-outline-color: 53, 52, 48;
-    background-image: url(../images/cover-image-light.png);
   }
   .page.theme_auto .header__dark-theme-decoration {
     display: none;
   }
+
+  .page.theme_auto .header {
+    background-image: url(../images/cover-image-light.png);
+  }
 }
 
-@media (769px < width) {
+@media (width >= 1024px) {
   :root .theme_light .title {
+    text-shadow: 4px 4px 0 var(--second-accent-color);
+  }
+}
+
+@media (prefers-color-scheme: light) and (width >= 1024px) {
+  :root .theme_auto .title {
     text-shadow: 4px 4px 0 var(--second-accent-color);
   }
 }

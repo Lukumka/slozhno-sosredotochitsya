@@ -21,6 +21,13 @@
   --hover-outline-color: 255, 0, 112;
 }
 
-.page.theme_dark {
+.page.theme_dark .header {
   background-image: url(../images/cover-image-dark.png);
+}
+
+@media (prefers-color-scheme: dark) {
+  
+  .page.theme_auto .header {
+    background-image: url(../images/cover-image-dark.png);
+  }
 }

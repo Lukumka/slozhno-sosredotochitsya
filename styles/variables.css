@@ -19,7 +19,7 @@
 @media (376px < width <= 768px) {
   :root {
     --page-margin: 20px;
-    --header-items-margin: 162.5px;
+    --header-items-margin: 162px;
     --section-margin: 60px;
   }
 }

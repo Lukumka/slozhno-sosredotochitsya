@@ -10,7 +10,7 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
-  font-family: var(--main-font-family), Arial, sans-serif;
+  font-family: var(--main-font-family), Arial, monospace;
 }
 
 h1,
@@ -21,10 +21,6 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-nav {
-  margin: none;
 }
 
 ul {
