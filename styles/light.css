@@ -12,7 +12,7 @@
   --hover-outline-color: 53, 52, 48;
 }
 
-.page.theme_light .page {
+.page.theme_light {
   background-image: url(../images/cover-image-light.png);
 }
 

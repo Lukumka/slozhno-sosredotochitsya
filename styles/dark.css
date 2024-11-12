@@ -21,7 +21,7 @@
   --hover-outline-color: 255, 0, 112;
 }
 
-.page.theme_dark .page {
+.page.theme_dark {
   background-image: url(../images/cover-image-dark.png);
 }
 
