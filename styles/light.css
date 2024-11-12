@@ -42,8 +42,9 @@
     background-image: url(../images/cover-image-light.png);
   }
 }
+/* По макету на разрешении для ноутбука цвет тени темно розовый */
 
-@media (width >= 1024px) {
+/* @media (width >= 1024px) {
   :root .theme_light .title {
     text-shadow: 4px 4px 0 var(--second-accent-color);
   }
@@ -53,4 +54,4 @@
   :root .theme_auto .title {
     text-shadow: 4px 4px 0 var(--second-accent-color);
   }
-}
+} */
