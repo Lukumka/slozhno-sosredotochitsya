@@ -12,7 +12,7 @@
   --hover-outline-color: 53, 52, 48;
 }
 
-.page.theme_light .header {
+.page.theme_light .page {
   background-image: url(../images/cover-image-light.png);
 }
 
@@ -38,7 +38,7 @@
     display: none;
   }
 
-  .page.theme_auto .header {
+  .page.theme_auto {
     background-image: url(../images/cover-image-light.png);
   }
 }
