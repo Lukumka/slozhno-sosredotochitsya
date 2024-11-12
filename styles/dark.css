@@ -27,7 +27,7 @@
 
 @media (prefers-color-scheme: dark) {
   
-  .page.theme_auto .header {
+  .page.theme_auto {
     background-image: url(../images/cover-image-dark.png);
   }
 }
