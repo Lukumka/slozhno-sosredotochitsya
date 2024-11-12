@@ -1,11 +1,10 @@
 
-/*!!!! Вопрос по палитре в файле light.css */
 .page {
   background-image: url(../images/cover-image.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top center;
+  background-position: center;
   font-size: var(--main-font-size);
 }
 
