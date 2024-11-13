@@ -1,6 +1,7 @@
 
 .page {
   background-image: url(../images/cover-image.png);
+  background-color: var(--bkg-color);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -146,7 +147,6 @@
 }
 
 section {
-  background-color: var(--bkg-color);
   display: grid;
   gap: calc(var(--section-margin) + var(--page-margin));
 }
@@ -225,7 +225,6 @@ section {
 }
 
 .footer {
-  background-color: var(--bkg-color);
   position: relative;
 }
 
@@ -342,12 +341,7 @@ section {
   }
 
   .header__quote-container {
-    height: 71px;
     max-width: 491px;
-  }
-
-  .header__quote {
-    white-space: normal;
   }
 
   .section.about {
