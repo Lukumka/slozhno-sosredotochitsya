@@ -1,3 +1,12 @@
+import '../styles/index.css';
+
+import books from '../images/books.png';
+import iceCream from '../images/ice-cream.png';
+import street from '../images/street.png';
+import sunset from '../images/sunset.png';
+import tape from '../images/tape.png';
+
+
 const themeButtons = document.querySelectorAll('.header__theme-menu-button');
 
 themeButtons.forEach((button) => {
