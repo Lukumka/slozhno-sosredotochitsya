@@ -16,7 +16,7 @@
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"24905ab99492ef50b4a8.png\";\n\n//# sourceURL=webpack://slozhno-sosredotochitsya/./images/books.png?");
+eval("module.exports = __webpack_require__.p + \"images/books.png\";\n\n//# sourceURL=webpack://slozhno-sosredotochitsya/./images/books.png?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("module.exports = __webpack_require__.p + \"24905ab99492ef50b4a8.png\";\n\n
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"1cf8c16e9c13c569355b.png\";\n\n//# sourceURL=webpack://slozhno-sosredotochitsya/./images/ice-cream.png?");
+eval("module.exports = __webpack_require__.p + \"images/ice-cream.png\";\n\n//# sourceURL=webpack://slozhno-sosredotochitsya/./images/ice-cream.png?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("module.exports = __webpack_require__.p + \"1cf8c16e9c13c569355b.png\";\n\n
   \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"cd97e2387f3a486fef22.png\";\n\n//# sourceURL=webpack://slozhno-sosredotochitsya/./images/street.png?");
+eval("module.exports = __webpack_require__.p + \"images/street.png\";\n\n//# sourceURL=webpack://slozhno-sosredotochitsya/./images/street.png?");
 
 /***/ }),
 
@@ -46,7 +46,7 @@ eval("module.exports = __webpack_require__.p + \"cd97e2387f3a486fef22.png\";\n\n
   \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"2c7dafbea51d28d45387.png\";\n\n//# sourceURL=webpack://slozhno-sosredotochitsya/./images/sunset.png?");
+eval("module.exports = __webpack_require__.p + \"images/sunset.png\";\n\n//# sourceURL=webpack://slozhno-sosredotochitsya/./images/sunset.png?");
 
 /***/ }),
 
@@ -56,7 +56,7 @@ eval("module.exports = __webpack_require__.p + \"2c7dafbea51d28d45387.png\";\n\n
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"d03b1076b5eb1548970f.png\";\n\n//# sourceURL=webpack://slozhno-sosredotochitsya/./images/tape.png?");
+eval("module.exports = __webpack_require__.p + \"images/tape.png\";\n\n//# sourceURL=webpack://slozhno-sosredotochitsya/./images/tape.png?");
 
 /***/ }),
 

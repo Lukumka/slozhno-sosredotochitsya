@@ -3,14 +3,14 @@
   \*******************************************************************/
 @font-face {
   font-family: 'IBM Plex mono';
-  src: url(e95fca82a37bf3efaefc.woff) format('woff');
+  src: url(images/IBMPlexMono-Regular.woff) format('woff');
   font-weight: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'IBM Plex mono';
-  src: url(5e0e9c56f4cc278f2aee.woff) format('woff');
+  src: url(images/IBMPlexMono-Bold.woff) format('woff');
   font-weight: bold;
   font-display: swap;
 }
@@ -20,7 +20,7 @@
   \********************************************************************/
 
 .page {
-  background-image: url(a59a6cda43f6d555eb25.png);
+  background-image: url(images/cover-image.png);
   background-color: var(--bkg-color);
   background-size: cover;
   background-repeat: no-repeat;
@@ -515,13 +515,13 @@ a {
 }
 
 .page.theme_dark {
-  background-image: url(5ca3f8ba13b2c7140a94.png);
+  background-image: url(images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
   
   .page.theme_auto {
-    background-image: url(5ca3f8ba13b2c7140a94.png);
+    background-image: url(images/cover-image-dark.png);
   }
 }
 /*!********************************************************************!*\
@@ -542,7 +542,7 @@ a {
 }
 
 .page.theme_light {
-  background-image: url(ee28616996ba61623f43.png);
+  background-image: url(images/cover-image-light.png);
 }
 
 .page.theme_light .header__dark-theme-decoration {
@@ -568,7 +568,7 @@ a {
   }
 
   .page.theme_auto {
-    background-image: url(ee28616996ba61623f43.png);
+    background-image: url(images/cover-image-light.png);
   }
 }
 
